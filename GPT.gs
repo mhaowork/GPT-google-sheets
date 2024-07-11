@@ -4,8 +4,8 @@ function CHATGPT(text, prompt, systemPrompt='', maxTokens=200, temperature=0.0, 
   console.log("Executing function: ChatGPT")
   return OpenAIGPT(text, prompt, systemPrompt=systemPrompt, maxTokens=maxTokens, temperature=temperature, model=model)
 }
-// functions to call specifically on GPT-4 using the OpenAIGPT base function
-function GPT4(text, prompt, systemPrompt='', maxTokens=200, temperature=0.0, model='gpt-4') {
+// functions to call specifically on GPT-4o using the OpenAIGPT base function
+function GPT4(text, prompt, systemPrompt='', maxTokens=200, temperature=0.0, model='gpt-4o') {
   console.log("Executing function: GPT4")
   return OpenAIGPT(text, prompt, systemPrompt=systemPrompt, maxTokens=maxTokens, temperature=temperature, model=model)
 }
